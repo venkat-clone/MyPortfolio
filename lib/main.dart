@@ -152,8 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
               margin: const EdgeInsets.only(top: 0,left: 2,right: 2),
               padding: const EdgeInsets.all(15),
               height: 190,
-              // color: Colors.white70,
-              // color: Colors.black26,
+
 
               child: Row(
 
@@ -161,12 +160,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisSize: MainAxisSize.max,
                 children: <Widget> [
                   Container(
-                    // padding: const EdgeInsets.symmetric(),
 
                     margin: const EdgeInsets.fromLTRB(0, 20, 0,10),
 
                     child : Column(
-                      // mainAxisAlignment: MainAxisAlignment.spaceAround,
                       mainAxisSize: MainAxisSize.max,
                       textBaseline: TextBaseline.alphabetic,
                       crossAxisAlignment: CrossAxisAlignment.baseline,
@@ -201,7 +198,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   Expanded(child: Container(
                     decoration: BoxDecoration(
                       image: const DecorationImage(
-                        // alignment: Alignment(5, 0),
                         centerSlice: Rect.fromLTRB(1, 1, 1, 1),
                         scale: 0.97,
                         fit: BoxFit.fitWidth,
